@@ -1,0 +1,10 @@
+.profile {
+    height: 130px;
+    width: 100%;
+
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+
+    border-bottom: lightgray solid 2px;
+}
