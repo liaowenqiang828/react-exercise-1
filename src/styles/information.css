@@ -1,0 +1,11 @@
+.information {
+    width: 810px;
+    height: 45px;
+    background-color: lightgray;
+    float: right;
+}
+.h4_inline {
+    display: inline-block;
+    margin-top: 3px;
+    margin-bottom: 4px;
+}
