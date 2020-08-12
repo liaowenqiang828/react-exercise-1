@@ -2,10 +2,14 @@ import React, {Component} from 'react';
 import '../styles/information.css';
 
 class Information extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
+    }
     render() {
         return <div className="information">
-            <h4 className="h4_inline">I was born in Katowlce</h4>
-            <p>That is the basic structure of an image tag.</p>
+            <h4 className="h4_inline">{this.props.brief}</h4>
+            <p>{this.props.detail}</p>
         </div>
     }
 }

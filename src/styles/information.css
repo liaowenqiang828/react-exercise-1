@@ -1,8 +1,9 @@
 .information {
-    width: 810px;
+    width: 800px;
     height: 45px;
     background-color: lightgray;
     float: right;
+    padding-left: 10px;
 }
 .h4_inline {
     display: inline-block;
